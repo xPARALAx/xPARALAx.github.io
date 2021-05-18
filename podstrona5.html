@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF=8">
+        <meta name="author" content="Paweł ">
+        <meta name="description" content="Projekt">
+        <link rel="stylesheet" type="text/css" href="projekt.css" />
+        <title>index.html</title>
+    </head>
+        <body>
+            <form action="" method="post">
+            <header>Formularz<br><a href="projekt.html">Strona Główna</a></header>
+            <main><table>
+                <tr>
+                    <td>
+                        <label>Podaj swoje imię:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="imie">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Podaj swoje nazwisko:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="nazwisko">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Ile masz lat?</label>
+                    </td>
+                    <td>
+                        <input type="number" name="wiek" minlenght="1">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Wybierz płeć:</label>
+                    </td>
+                    <td>
+                        <input type="radio" name="plec" value="Kobieta">Kobieta
+                        <input type="radio" name="plec" value="Mężczyzna">Mężczyzna
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Czy latałeś/aś samolotem ?</label>
+                    </td>
+                    <td>
+                        <input type="radio" name="plec" value="Tak">Tak
+                        <input type="radio" name="plec" value="Nie">Nie
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Jakim samolotem latałeś/aś ?</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="samolot" value="Pasażerski">Pasażerski<br>
+                        <input type="checkbox" name="samolot" value="Transportowy">Transportowy<br>
+                        <input type="checkbox" name="samolot" value="Myśliwiec">Myśliwiec<br>
+                        <input type="checkbox" name="samolot" value="Inny">inny
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Jeśli innym to jakim ?</label>
+                    </td>
+                    <td>
+                        <input type="text" name="innysamolot">
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <label>Opisz swoje odczucia</label>
+                    </td>
+                    <td>
+                        <textarea name="odczucia"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" name="wyslij" value="wyślij">
+                    </td>
+                </tr>
+            </table>
+            </main>
+            </form>
+    </body>
+</html>

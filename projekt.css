@@ -1,0 +1,12 @@
+header {background-color: #f9891f; height: 100px; width: 100%; text-align: center; float: center; font-family: Arial; font-size: 25px; color: white; }
+footer {background-color: #f9891f; height: 100%; width: 100%; text-align: right; float: center; font-family: Arial; font-size: 25px; color: white; } 
+nav {background-color: #66d9ff; height: 250px; width: 40%; text-align: left; float: center; font-family: Arial; font-size: 20px; }
+.blok1{background-color: #66b3ff; height: 250px; width: 60%; text-align: left; float: right; font-family: Arial; font-size: 20px;}
+.blok2 {background-color: #66d9ff; height: 100%; width: 33.33%; text-align: left; float: left; font-family: Arial; font-size: 20px; }
+main {background-color: #3399ff; height: 100%; width: 100%; text-align: left; float: center; font-family: Arial; font-size: 20px;}
+body {background-color: lightgray;}
+table {border-color: blue;border-style: solid; border-width: 2px;height: 100%; width 100%; } 
+a:link {color: #3333ff; background-color: transparent; text-decoration: none;}
+a:visited { color: #6600cc; background-color: transparent; text-decoration: none;}
+a:hover {color: red; background-color: transparent; text-decoration: underline;}
+a:active { color: yellow; background-color: transparent; text-decoration: underline;}
